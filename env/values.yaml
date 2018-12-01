@@ -21,6 +21,7 @@ expose:
     helm.sh/hook: post-install,post-upgrade
     helm.sh/hook-delete-policy: hook-succeeded
 
+# Added global parameters so that multiple charts can use/see these
 global:
   CalicoIPV4PodsCidr: 10.201.0.0/16
   CalicoNodeMTU: 8950
