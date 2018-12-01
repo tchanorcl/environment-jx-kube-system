@@ -1,5 +1,5 @@
 name: env
-version: 1.0.0
+version: 1.0.1
 description: GitOps Environment for the kube-system Environment 
 maintainers:
   - name: Timothy Chan

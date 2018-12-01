@@ -20,6 +20,8 @@ expose:
   Annotations:
     helm.sh/hook: post-install,post-upgrade
     helm.sh/hook-delete-policy: hook-succeeded
-calico:
-  IPV4PodsCidr: 10.201.0.0/16
-  NodeMTU: 8950
+
+global:
+  CalicoIPV4PodsCidr: 10.201.0.0/16
+  CalicoNodeMTU: 8950
+  CalicoIstioEnabled: true
