@@ -1,0 +1,9 @@
+apiVersion: v1
+description: A Helm chart for Calico 
+name: calico 
+version: 3.3.1
+appVersion: 3.3.1 
+maintainers:
+  - name: Timothy Chan
+icon: https://www.projectcalico.org/images/logo.jpg
+tillerVersion: ">=2.7.2" 

@@ -1,6 +1,6 @@
 name: env
-version: 0.0.1
-description: GitOps Environment for this Environment 
+version: 1.0.0
+description: GitOps Environment for the kube-system Environment 
 maintainers:
-  - name: Team
+  - name: Timothy Chan
 icon: https://www.cloudbees.com/sites/default/files/Jenkins_8.png
