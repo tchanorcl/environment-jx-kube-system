@@ -1,6 +1,6 @@
 name: env
-version: 1.0.1
-description: GitOps Environment for the kube-system Environment 
+version: 1.0.2
+description: GitOps Environment for the kube-system Environment. Upgraded Calico v3.4
 maintainers:
   - name: Timothy Chan
 icon: https://www.cloudbees.com/sites/default/files/Jenkins_8.png
